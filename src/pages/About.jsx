@@ -10,29 +10,25 @@ function About() {
                Про стек технологій які використані в процесі розробки сайту
             </h1>
             <p className="about__text">
-               на даному сайті реалізована:
-               <span className="about__span">по сторінкова навігація,</span>
+               this site implements:
+               <span className="about__span">page navigation,</span>
                <span className="about__span">
-                  фейкова перевірка чи користувач зареестрований,
+                  fake check whether the user is registered,
                </span>
                <span className="about__span">
-                  запит на сервер та отримання постів,
+                  requesting the server and receiving posts,
                </span>
                <span className="about__span">react transition group,</span>
-               <span className="about__span">пагінація,</span>
-               <span className="about__span">сортування ,</span>
+               <span className="about__span">pagination,</span>
+               <span className="about__span">sorting,</span>
                <span className="about__span">
-                  пошук та так звана безкінечна сторінка
+                  search and the so-called infinite page
                </span>
             </p>
             <p className="about__text">
-               для того щоб проті перевірку на реестрацію потрібно ввести user:
+               in order to check the registration, you need to enter user:
                <span className="about__login"> user</span> pasword:
                <span className="about__login"> userPass123</span>
-            </p>
-            <p className="about__text">
-               використовувася компонентній підхід ,декомпозиція та кастомні
-               хуки
             </p>
          </div>
       </>
